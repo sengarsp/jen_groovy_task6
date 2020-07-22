@@ -1,12 +1,12 @@
 import smtplib
-email="YOUR_EMIAL@gmail.com"
-password="password"
-send_mail="sendemail@gmail.com"
-text="This is a text"
+email="shyamendra99@gmail.com"
+password="g_mail.com@123"
+send_mail="bharat8249@gmail.com"
+text="your server is working fine "
 
 
 server=smtplib.SMTP("smtp.gmail.com",587)
 server.starttls()
-server.login(email,password)
-server.sendmail(email, send_mail, text)
+server.login(shyamendra99@gmail.com,g_mail.com@123)
+server.sendmail(email, bharat8249@gmail.com, text)
 server.quit()
