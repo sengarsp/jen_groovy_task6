@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
       - name: php-dep
-        image: rootritesh/webserver-php
+        image: 208011/jen_cluster
         ports:
         - containerPort: 80
         volumeMounts:
